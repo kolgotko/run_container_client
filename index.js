@@ -136,12 +136,12 @@ class RunContainer {
         }
     });
 
-    // try {
-    //     let result = await runc.stopContainer({name: "ac-bt"});
-    //     console.log(result);
-    // } catch ( error ) {
-    //     console.log(error);
-    // }
+    try {
+        let result = await runc.stopContainer({name: "ac-bt"});
+        console.log(result);
+    } catch ( error ) {
+        console.log(error);
+    }
 
     try {
 
